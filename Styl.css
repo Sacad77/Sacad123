@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: #ff69b4;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu button{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu button:hover{
+    background-color: #e754a0;
+}
+
+.page{
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+
+.page h2{
+    color: #ff69b4;
+    margin-top: 0;
+}
+
+.page p{
+    line-height: 1.6;
+}
