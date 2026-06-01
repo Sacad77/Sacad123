@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beauty Salon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Beauty Salon</h1>
+
+<div class="menu">
+    <button onclick="openPage('home')">Home</button>
+    <button onclick="openPage('about')">About</button>
+    <button onclick="openPage('contact')">Contact</button>
+</div>
+
+<div id="home" class="page">
+    <h2>Home</h2>
+    <p>Welcome to our salon. We provide beauty services for women.</p>
+</div>
+
+<div id="about" class="page" style="display:none;">
+    <h2>About</h2>
+    <p>Our salon has been serving customers for many years.</p>
+</div>
+
+<div id="contact" class="page" style="display:none;">
+    <h2>Contact</h2>
+    <p>Phone: +252 61 7860752</p>
+</div>
+
+<script>
+
+function openPage(name){
+
+    var pages = document.getElementsByClassName("page");
+
+    for(var i = 0; i < pages.length; i++){
+        pages[i].style.display = "none";
+    }
+
+    document.getElementById(name).style.display = "block";
+}
+
+</script>
+
+</body>
+</html>
